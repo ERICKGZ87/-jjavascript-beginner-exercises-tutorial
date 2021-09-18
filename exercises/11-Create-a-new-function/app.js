@@ -5,8 +5,8 @@
 function generateRandom()
 {
     
-
    
-    
+  return generateRandom 
+  
 }
 console.log(Math.floor(Math.random() * 10));

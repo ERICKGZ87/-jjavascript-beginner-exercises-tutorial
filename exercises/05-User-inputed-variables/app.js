@@ -4,5 +4,5 @@ var age = prompt('What is your age?');
 
 
 
-console.log(parseFloat(age)+10)
+console.log(Number(age)+10)
 
