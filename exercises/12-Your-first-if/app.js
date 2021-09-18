@@ -1,36 +1,24 @@
-var total = prompt('How many km are left to go?');
+var total = prompt("How many km are left to go?");
 
-// Your code below:
-
-
-//
-//if (parseFloat(total)>=100){
- // console.log('Are we there yet')
-//}
-//else if (parseFloat(total)>50){
-
-//console.log('Well be there in 5 minutes')
-//}
-//else if (parseFloat(total)<50){
-  //console.log('Im parking, I see you right now')
-  
-//}
-
-function recorrido(total){
+function recorrido(total) {
   let result;
-if (parseFloat(total)>=100 ){
-  result = 'Are we there yet';
-}
+  if (total >=100) 
+  {
+    result = "Are we there yet?";
+  } 
+  else if (total >=50) 
+  {
+    result = "We'll be there in 5 minutes";
+    
+  }
+  else if (total<=50)
+  {
 
-else {
-  result = 'Well be there in 5 minutes';
+    result = "I'm parking, I see you right now";
+  }
+
   return result;
 }
-console.log(total)
 
-
-
-
-
-
-  
+let distance = recorrido(total);
+console.log(distance);

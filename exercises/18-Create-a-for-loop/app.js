@@ -4,4 +4,14 @@
 
 
 // Calling the function:
-standardsMaker();
+function standardsMaker(){
+  
+
+return i
+}
+
+
+for (let i = 0; i <= 299; i++) {
+  console.log('Yo preguntaré si estoy atascado' + '<br>');
+  }
+
